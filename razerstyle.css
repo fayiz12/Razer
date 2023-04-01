@@ -1,0 +1,302 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: brown;
+    width: 100%;
+    height: 100%;
+    
+
+}
+.item1-header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: rgb(0, 0, 0);
+    border-bottom-style: solid;
+    border-bottom-color: rgb(0, 217, 33);
+    border-width: thin;
+    grid-row-gap: 50px;
+    
+    
+}
+
+.item2-sub-header{
+    grid-column-start:1 ;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #555555;
+    width: 100%;
+    height: 25px;
+    padding-bottom: 13px;
+    
+   
+    
+}
+
+.item3-left{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: aqua;
+    background-image: url("images/razer-edge-homepage-desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    text-align: left;
+    
+}
+.item4-right{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #ffa200;
+    background-image: url("images/razer-meta-quest-2-vr-homepage-desktop1x.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+    
+
+}
+.item5{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color: #ffa200;
+    background-image: url("images/razer-blade-18-homepage-desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+    
+}
+.item6-left{
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background-image: url("images/enkipro-lamborghini-b-950x580-desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+}
+
+.item6-right{
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background-image: url("images/redfall-game-bundle-nvidia-b-950x580-desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+}
+
+
+.item3-footer{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background-color: rgb(0, 0, 0);
+    color:#555555;
+}
+
+.logo-image{
+    height: 35px;
+    width: 35;
+    
+    
+    
+}
+.header-container{
+    display: flex;
+    padding-top: 13px;
+    margin:0px 159px;
+    margin-bottom: 10px;
+    
+    
+    
+    
+}
+.items{
+    list-style-type: none;
+    display: flex;
+    font-weight: lighter;
+    color: white;
+    padding-left: 41px;
+    font-size: 15px;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: 'Merriweather', serif;
+    
+}
+.item{
+   
+    padding-right: 80px;
+    color: #888888;
+
+}
+.item:hover{
+    color: white;
+}
+
+.desktop-img{
+ 
+  height: fit-content;
+  width: fit-content;
+  position: relative;
+}
+.exclusive-button{
+    background-color: #ffa200;
+    padding: 2PX 10px 2px 10px;
+    
+    margin-left: 46%;
+    margin-top: 30px;
+   
+}
+.heading{
+    position: absolute;
+    font-size: 52px;
+    font-weight: 600;
+    color: white;
+    margin-left: 38%;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 31%;
+    margin-top: 100px;
+    font-size: 25px;
+    font-weight: 10px;
+}
+.learn-more{
+    color: white;
+    background-color: transparent;
+    margin-left: 42%;
+    margin-top: 10px;
+    font-size: large;
+    border-color: transparent;
+}
+.buy{
+    color: white;
+    background-color: transparent;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: large;
+    border-color: transparent;
+    letter-spacing: 2px;
+}
+
+.learn-more:hover{
+    border-bottom-color: white;
+}
+
+.buy:hover{
+    border-bottom-color: white;
+}
+
+.heading1{
+    position: absolute;
+    font-size: 52px;
+    font-weight: 600;
+    color: white;
+    margin-left: 27%;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para1{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 39%;
+    margin-top: 100px;
+    font-size: 25px;
+    font-weight: 10px;}
+
+
+ul{
+    list-style-type: none;
+    line-height: 30px;
+}
+.shop{
+    padding-right:120px;
+}
+.explore{
+    padding-right:120px;
+}
+.support{
+    padding-right:120px;
+}
+.company{
+    padding-right:120px;
+}
+.social-links{
+    padding-left:120px;
+}
+
+.para2{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 32%;
+    margin-top: 100px;
+    font-size: 25px;
+    font-weight: 10px;}
+
+.heading2{
+        position: absolute;
+        font-size: 52px;
+        font-weight: 600;
+        color: white;
+        margin-left: 10%;
+        margin-top: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+.para3{
+        color: whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 18%;
+        margin-top: 100px;
+        font-size: 25px;
+        font-weight: 10px;}
+.footer2{
+    display: flex;
+    padding: 20px 100px 20px 100px;
+
+}
+.copyright{
+    display: flex;
+    font-size: 12px;
+
+}
+.inside-copy{
+    padding-right: 25px;
+}
+.last{
+    margin:0px 100px;
+}
+.both{
+    display: flex;
+    font-size: 12px;
+}
